@@ -15,10 +15,12 @@ class Node extends React.Component {
     }
 
     shouldBeOpened() {
+        /**
+         * Checks wheter component should hide or show sub nodes
+         */
         if (this.nodeRef.current) {
-            let checked = this.nodeRef.current.checked;
-            this.checked = checked;
-            return checked;
+            this.checked = this.nodeRef.current.checked;
+            return this.checked;
         }
         if (this.props.parentName === "root") {
             return true;
@@ -38,6 +40,9 @@ class Node extends React.Component {
     }
 
     button() {
+        /**
+         * Returns clickable header to render
+         */
         return (
             <>
                 <input
@@ -53,36 +58,44 @@ class Node extends React.Component {
     }
 
     text() {
+        /**
+         * Returns header if component should not be clickable
+         */
         return (<span className="node__text">{this.props.name}</span>);
     }
 
     subNodes() {
-        return (
-            this.props.subNodes.map((subNode, i) => 
-                <Node
-                    {...subNode}
-                    parentName={this.props.name}
-                    key={i} />
-            )
+        /**
+         * Returns array of subnodes to render
+         */
+        return (this.props.subNodes.map((subNode, i) =>
+            <Node
+                {...subNode}
+                parentName={this.props.name}
+                key={i} />
+        )
         );
     }
 
     shouldRenderButton() {
+        /**
+         * Checks wheter component's header should be clickable
+         */
         return (this.props.type === "checkbox" || this.props.type === "radio")
     }
 
     render() {
-        const isClickable = this.shouldRenderButton();
+        const isButton = this.shouldRenderButton();
 
         return (
-            <div className={"node" + ( isClickable ? "" : " node--text") }>
+            <div className={"node" + (isButton ? "" : " node--text")}>
                 <div className="node__header">
-                    { isClickable
-                        ? this.button() 
-                        : this.text() }
+                    {isButton
+                        ? this.button()
+                        : this.text()}
                 </div>
                 <div className={"node__children" + (this.shouldBeOpened() ? "" : "--hidden")}>
-                    { this.props.subNodes.length > 0 && this.subNodes() }
+                    {this.props.subNodes.length > 0 && this.subNodes()}
                 </div>
             </div>
         );

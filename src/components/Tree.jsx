@@ -1,8 +1,5 @@
 import React from "react";
 import Node from "./Node";
-import data from "../structure.json";
-
-
 
 export default class Tree extends React.Component {
     /**
@@ -17,10 +14,10 @@ export default class Tree extends React.Component {
      */
     render() {
         return (
-            <div 
-                className="tree" 
+            <div
+                className="tree"
                 onClick={() => this.forceUpdate()} >
-                {data.map((node, i) => (
+                {this.props.data.map((node, i) => (
                     <Node
                         {...node}
                         key={i}
