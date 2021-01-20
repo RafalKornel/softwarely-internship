@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body,
+#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.tree > .node {
+  border-left: none;
+}
+
+.tree > .node::before {
+  content: unset;
+}
+
+.node {
+  position: relative;
+  white-space: pre-wrap;
+  border-left: 1px solid #4b4b4b;
+  margin-left: 10px;
+}
+
+.node--text {
+  color: #3f3f3f;
+}
+
+.node--text .node__header {
+  padding-left: 5px;
+}
+
+.node--text:nth-child(odd) .node__header {
+  background-color: #e9e9e9;
+  background-position: left 100px top 0;
+}
+
+.node input {
+  display: block;
+}
+
+.node__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.node::before {
+  content: "";
+  width: 10px;
+  height: 0.5em;
+  position: absolute;
+  border-bottom: 1px solid #4b4b4b;
+  left: -1px;
+}
+
+.node:last-child {
+  border-left: none;
+}
+
+.node:last-child::before {
+  border-left: 1px solid #4b4b4b;
+  left: 0px;
+  width: 9px;
+}
+
+.node__header {
+  margin-left: 10px;
+}
+
+.node__children {
+  margin-left: 10px;
+  padding-bottom: 5px;
+  line-height: 20px;
+}
+
+.node__children--hidden {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

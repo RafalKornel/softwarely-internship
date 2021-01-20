@@ -1,0 +1,157 @@
+[
+    {
+        "name": "Nagłówek drzewa wielowierszowego",
+        "type": "checkbox",
+        "subNodes": [
+            {
+                "name": "Pododdział 1",
+                "type": "radio",
+                "subNodes": [
+                    {
+                        "name": "Zespół 1 \nHR",
+                        "subNodes": []
+                    },
+                    {
+                        "name": "Zespół 2 \nMarketing",
+                        "subNodes": []
+                    },
+                    {
+                        "name": "Zespół 3 \nAnalitycy",
+                        "type": "checkbox",
+                        "subNodes": [
+                            {
+                                "name": "Podzespół 3.1 \nKalendarz",
+                                "subNodes": []
+                            },
+                            {
+                                "name": "Podzespół 3.2 \nKokpit",
+                                "subNodes": []
+                            },
+                            {
+                                "name": "Podzespół 3.3 \nWidok",
+                                "subNodes": []
+                            },
+                            {
+                                "name": "Podzespół 3.4 \nRóżności",
+                                "subNodes": []
+                            },
+                            {
+                                "name": "Podzespół 3.5 \nSzukaj",
+                                "subNodes": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Zespół 4 \n Programiści",
+                        "type": "checkbox",
+                        "subNodes": [
+                            {
+                                "name": "Podzespół 4.1 \nFront-end",
+                                "subNodes": []
+                            },
+                            {
+                                "name": "Podzespół 4.2 \nMiddle-front-end",
+                                "subNodes": []
+                            },
+                            {
+                                "name": "Podzespół 4.3 \nMiddle-end",
+                                "subNodes": []
+                            },
+                            {
+                                "name": "Podzespół 4.4 \nMiddle-back-end",
+                                "subNodes": []
+                            },
+                            {
+                                "name": "Podzespół 4.5 \nBack-end",
+                                "subNodes": []
+                            }
+                         ]
+                    }
+                ]
+            }, 
+            {
+                "name": "Pododdział 2",
+                "type": "radio",
+                "subNodes": [
+                    {
+                        "name": "nagłówek_2_1",
+                        "type": "radio",
+                        "subNodes": [
+                            {
+                                "name": "nagłówek_2_1_1",
+                                "type": "radio",
+                                "subNodes": [
+                                    {
+                                        "name": "sample text here 4152",
+                                        "subNodes": []
+                                    },
+                                    {
+                                        "name": "tekst_2_1_1_2",
+                                        "subNodes": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "nagłówek_2_2",
+                        "type": "checkbox",
+                        "subNodes": [
+                            {
+                                "name": "tekst_2_2_1",
+                                "text": "sample text here",
+                                "subNodes": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "nagłówek_2_3",
+                        "type": "radio",
+                        "subNodes": [
+                            {
+                                "name": "nagłówek_2_3_1",
+                                "type": "radio",
+                                "subNodes": [
+                                    {
+                                        "name": "sample text here 123",
+                                        "subNodes": []
+                                    },
+                                    {
+                                        "name": "sample text here 453",
+                                        "subNodes": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pododdział 3",
+                "type": "radio",
+                "subNodes": [
+                    {
+                        "name": "nagłówek_3_1",
+                        "type": "radio",
+                        "subNodes": [
+                            {
+                                "name": "nagłówek_3_1_1",
+                                "type": "radio",
+                                "subNodes": [
+                                    {
+                                        "name": "sample text here 646",
+                                        "subNodes": []
+                                    },
+                                    {
+                                        "name": "sample text here 846",
+                                        "subNodes": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
