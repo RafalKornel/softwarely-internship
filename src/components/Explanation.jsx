@@ -7,9 +7,9 @@ const ExplanationEn = () => (
         <p>The JSON file structure is as follows: <br />
         <code>
             {"{"} <br />
-                <span /> "name": Will be shown in header.<br />
-                <span /> "type": [ "radio" | "checkbox" | none ] Determines type of card. If ommited, will use name as header and only show message. <br />
-                <span /> "subNodes": [ nodes ] Contains all child nodes, which are the same shape as parent.<br />
+                <span /> "name": {"<"} string {">"} Will be shown in header.<br />
+                <span /> "type": {"<"} "radio" | "checkbox" | none {">"} Determines type of card. If ommited, will use name as header and only show message. <br />
+                <span /> "subNodes": {"<"} array {">"} Contains all child nodes, which are the same shape as parent.<br />
              {"{"} <br />
         </code>
             It contains only 3 fields: name, type and list of inner elements. This scructure 
@@ -37,9 +37,9 @@ const ExplanationPl = () => (
         <p>Format pliku JSON jest następujący: <br />
         <code>
             {"{"} <br />
-                <span /> "name": Tekst wyświetlony w nagłówku karty.<br />
-                <span /> "type": [ "radio" | "checkbox" | none ], Na jego podstawie wyznaczany jest typ komponentu. Pominięcie stworzy nieklikalny element (tekst)"<br />
-                <span /> "subNodes": [ nodes ] Zawiera wszystkie zagnieżdzone elementy. <br />
+                <span /> "name": {"<"} string {">"} Tekst wyświetlony w nagłówku karty.<br />
+                <span /> "type": {"<"} "radio" | "checkbox" | none {">"} Typ komponentu. Pominięcie stworzy nieklikalny element (tekst)"<br />
+                <span /> "subNodes": {"<"} array {">"} Zawiera wszystkie zagnieżdzone elementy. <br />
              {"{"} <br />
         </code>
         Zawiera on jedynie 3 pola: nazwę, typ oraz listę wewnętrznych elementów.

@@ -5,10 +5,10 @@ This is my solution for Softwarely front-end internship recruitment task. The pr
 The JSON file structure is as follows: 
 node: 
 {
-    "name": *Will be shown in header*
+    "name": < string > *Will be shown in header*
     "type": < "radio" | "checkbox" | none > 
             *Determines type of card. If ommited, will use name as header and only show message."*
-    "subNodes": [ nodes ]
+    "subNodes": < nodes >
                 *Contains all child nodes, which are the same shape as parent.*
 }
 
