@@ -1,5 +1,7 @@
 # Softwarely internship recruitment task
 
+[See live demo](https://rafalkornel.github.io/softwarely-internship/index.html)
+
 This is my solution for Softwarely front-end internship recruitment task. The problem was to create accordion-like list, that would be fed data from JSON format, had to manage arbitrary number of nestings, and implement two types of cards: checkboxes and radios. The behaviour is same as HTML's radio/checkbox input, but with small difference, in this app you can uncheck (close) radio button.
 
 The JSON file structure is as follows: 
