@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/softwarely-internship/static/css/main.e0fd7e79.chunk.css",
+    "main.css": "/softwarely-internship/static/css/main.027373bf.chunk.css",
     "main.js": "/softwarely-internship/static/js/main.560bccb4.chunk.js",
     "main.js.map": "/softwarely-internship/static/js/main.560bccb4.chunk.js.map",
     "runtime-main.js": "/softwarely-internship/static/js/runtime-main.4ed6ea8e.js",
@@ -8,13 +8,13 @@
     "static/js/2.ea9bfca1.chunk.js": "/softwarely-internship/static/js/2.ea9bfca1.chunk.js",
     "static/js/2.ea9bfca1.chunk.js.map": "/softwarely-internship/static/js/2.ea9bfca1.chunk.js.map",
     "index.html": "/softwarely-internship/index.html",
-    "static/css/main.e0fd7e79.chunk.css.map": "/softwarely-internship/static/css/main.e0fd7e79.chunk.css.map",
+    "static/css/main.027373bf.chunk.css.map": "/softwarely-internship/static/css/main.027373bf.chunk.css.map",
     "static/js/2.ea9bfca1.chunk.js.LICENSE.txt": "/softwarely-internship/static/js/2.ea9bfca1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4ed6ea8e.js",
     "static/js/2.ea9bfca1.chunk.js",
-    "static/css/main.e0fd7e79.chunk.css",
+    "static/css/main.027373bf.chunk.css",
     "static/js/main.560bccb4.chunk.js"
   ]
 }
