@@ -47,7 +47,7 @@ section code {
 input[type="button"] {
   position: fixed;
   top: 1em;
-  right: 1em;
+  right: 2em;
   width: 3em;
   height: 2em;
   background-color: darkcyan;
@@ -55,6 +55,10 @@ input[type="button"] {
   border: none;
   border-radius: 1em;
   font-weight: bold;
+}
+
+input[type="button"]:focus {
+  outline: none;
 }
 
 /* Top component */

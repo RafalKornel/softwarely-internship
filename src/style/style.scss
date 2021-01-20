@@ -43,7 +43,7 @@ section {
 input[type="button"] {
     position: fixed;
     top: 1em;
-    right: 1em;
+    right: 2em;
 
     width: 3em;
     height: 2em;
@@ -52,6 +52,10 @@ input[type="button"] {
     border: none;
     border-radius: 1em;
     font-weight: bold;
+
+    &:focus {
+        outline: none;
+    }
 }
 
 /* Top component */
